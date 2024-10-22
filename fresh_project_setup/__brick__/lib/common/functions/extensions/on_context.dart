@@ -1,9 +1,10 @@
-import 'package:{{package_name}}/config/adaptive_color.dart';
 import 'package:flutter/material.dart';
 import 'package:{{package_name}}/common/functions/extensions/on_num.dart';
+import 'package:{{package_name}}/common/widgets/pop_up_modal_widget.dart';
 import 'package:{{package_name}}/common/widgets/btn_text.dart';
 import 'package:{{package_name}}/common/widgets/text_widget.dart';
 import 'package:{{package_name}}/config/config.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:toastification/toastification.dart';
 
 extension ContextExt on BuildContext {
